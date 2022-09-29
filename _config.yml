@@ -1,5 +1,5 @@
 theme: jekyll-theme-minimal
 title: Dr. Fitz's Big Data Reference
-description: This page provides code snippets and materials for the Big Data course taught by Dr. Fitz at Florida Tech
+description: This page provides code snippets and materials for the Big Data course taught by Dr. Fitz at Florida Tech. Some material taken from 'Data Science with Python and Dask by Jesse Daniel'
 github:
   is_project_page: false
