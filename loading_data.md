@@ -1,14 +1,14 @@
 # Data Processing Workflow with Dask
 ## Loading Data Into DataFrames
 
-![image.png](attachment:image.png)
+![image.png](loading_data.png)
 
 ### Before beginning, set your working directory to where the data resides
 
 
 ```python
 import os
-os.chdir('/Users/fitzroi/Library/Mobile Documents/com~apple~CloudDocs/Documents/FIT/teaching/fall_2022/big_data/plans/tutorials/dask/nyc_parking_violations')
+os.chdir('nyc_parking_violations')
 ```
 
 ### Load the datasets
