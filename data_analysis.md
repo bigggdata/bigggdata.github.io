@@ -541,6 +541,7 @@ correlation_matrix
 $$
 F=\frac{(N-p)}{(p-1)} \frac{\sum_{j=1}^p n_j\left(\tilde{z}_j-\tilde{z}_{. .}\right)^2}{\sum_{j=1}^p \sum_{i=1}^{n_j}\left(z_{i j}-\tilde{z}_{. j}\right)^2}
 $$
+
 Where: $z_{i j}=\left|y_{i j}-\tilde{y}_j\right|$
 
 $N$ is the total number of observations.
