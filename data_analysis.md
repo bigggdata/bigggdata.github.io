@@ -1,13 +1,13 @@
 # Data Processing Workflow with Dask
 ## Summarizing and Analyzing DataFrames
 
-![image.png](attachment:image.png)
+![image.png](eda_hypothesis_testing.png)
 
 
 ```python
 # Before beginning, set your working directory to where the data resides
 import os
-os.chdir('/Users/fitzroi/Library/Mobile Documents/com~apple~CloudDocs/Documents/FIT/teaching/fall_2022/big_data/plans/tutorials/dask/nyc_parking_violations')
+os.chdir('nyc_parking_violations')
 ```
 
 ### Calculating Descriptive Statistics with Dask
@@ -176,19 +176,6 @@ pd.DataFrame(desc_stats, columns=["Statistic", "Value"])
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -290,19 +277,6 @@ sort_by_months(citations_per_month.to_frame(), sort_order)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -531,19 +505,6 @@ correlation_matrix
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
